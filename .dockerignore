@@ -1,0 +1,14 @@
+# Ignorar todas las carpetas node_modules en el contexto de construcción
+node_modules
+**/node_modules
+
+# Ignorar la carpeta .pnpm
+.pnpm
+**/.pnpm
+
+# Ignorar la carpeta .git
+.git
+**/.git
+
+# Ignorar otras carpetas y archivos de caché comunes
+*.log
